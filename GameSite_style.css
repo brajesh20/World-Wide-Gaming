@@ -1,0 +1,220 @@
+/*  HEADER  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    background-image: url("https://w0.peakpx.com/wallpaper/284/214/HD-wallpaper-dark-siders-game-games-skull-thumbnail.jpg");
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 15%;
+}
+
+#heading{
+    color: red;
+    font-size: 30px;
+    font-family: "Aclonica",sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.logoHead{
+   width: 85%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin-left: 50px;
+}
+
+#logoPic{
+    width: 160px;
+    margin: 35px 27px;
+}
+
+#navAnchor{
+    text-decoration: none;
+    margin-right: 55px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#install_text{
+    color: white;
+    font-size: 15px;
+    font-family: "Aclonica",sans-serif;
+}
+
+#install_pic{
+    width: 10%;
+    font-size: 18px;
+}
+
+#install_button{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    border-style: none;
+    border-radius: 7px;
+    transition: .3s;
+    background-color: crimson;
+    box-shadow:#664f4f 5px 5px 25px;
+    padding: 3px;
+}
+
+#install_button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.download{
+    margin-right: 95px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.Items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*  BODY  */
+
+/*  BATMAN  */
+.midBody{
+background-color: black;
+}
+
+.innerMid{
+    background-color: black;
+    margin: auto;
+    width: 1000px;
+    padding-top: 20px;
+}
+
+.content1{
+    display: flex;
+    margin-top: 100px;
+}
+
+#batman{
+    width: 400px;
+    height: 200px;
+}
+
+#batman_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+
+/*  SPIDERMAN  */
+
+.content2{
+    display: flex;
+    margin-top: 100px;
+}
+
+#spiderman{
+    width: 400px;
+    height: 200px;
+    padding: 12px;
+}
+
+#spiderman_img_div{
+    display: flex;
+    justify-content: end;
+    align-items: center;   
+    margin-top: 50px; 
+    margin-left: 20px;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-top: 45px;
+}
+
+/**/
+
+.content3{
+    display: flex;
+    margin-top: 100px;
+}
+
+#COD{
+    width: 400px;
+    height: 240px;
+    padding: 12px;
+}
+
+#COD_img_div{
+    display: flex;
+    justify-content: end;
+    align-items: center;   
+    margin-top: 50px; 
+    margin-left: 20px;
+}
+
+#text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-top: 45px;
+}
+
+
+
+/*  FOOTER  */
+
+.foot{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    background-color: black;
+}
+
+.foot p{
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
